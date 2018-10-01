@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenCVApp", "OpenCVApp\OpenCVApp.csproj", "{00DBB03E-EFFC-4E78-97BA-9D51A2FB6169}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF10168C-EB59-4F0A-92C7-3058BC8F6C73}"
+	ProjectSection(SolutionItems) = preProject
+		OpenCVApp\Model.jpg = OpenCVApp\Model.jpg
+		OpenCVApp\Triple.jpg = OpenCVApp\Triple.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

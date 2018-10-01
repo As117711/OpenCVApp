@@ -18,7 +18,7 @@ namespace OpenCVApp
     {
         static void Main(string[] args)
         {
-            using (var modelImage = new Image<Gray, byte>(@"model.jpg"))
+            using (var modelImage = new Image<Gray, byte>(@"Model.jpg"))
             {
                 var surfDetector = new SURF(400);
                 var ImageFeatures = surfDetector.Detect(modelImage, null);
